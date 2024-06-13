@@ -1,6 +1,6 @@
 import pytest
 
-from katas.practise import *
+from katas.kata_1 import *
 
 def test_bracket_matcher() -> None:
     assert bracket_matcher("()") == True
